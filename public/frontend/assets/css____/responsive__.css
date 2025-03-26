@@ -1,0 +1,43 @@
+/*=======Responsive Design=======*/
+@media screen and (max-width: 995px) {
+    .hero-content {
+        width: 100%;
+    }
+}
+@media (max-width: 570px) {
+ 
+  
+}
+
+@media (max-width: 770px) {
+    
+}
+
+@media (max-width: 450px) {
+
+    .hero-content {
+        width: 100%;
+        /* padding: 100px 0px; */
+    }
+
+    .hero-content h1{
+        font-size: 2rem;
+    }
+
+    .abt-logo-img {
+        display: none;
+    }
+    .phone img {
+        width: 100%;
+    }
+
+    .head{
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .points p {
+        font-size: 14px;
+    }
+}
+

@@ -1,0 +1,147 @@
+/*=======Responsive Design=======*/
+@media screen and (max-width: 995px) {
+  .hero-content {
+    width: 100%;
+  }
+
+  .service-card p {
+    width: 194px;
+  }
+
+  .arrow-img {
+    display: none;
+  }
+
+  .cta-phone {
+    display: none;
+  }
+
+  .app-img {
+    height: 30px;
+  }
+
+  .copy {
+    flex-direction: column;
+  }
+  .navbar-collapse {
+    background-color: #fff;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar-transparent .navbar-collapse {
+    background-color: black;
+  }
+
+  .navbar-transparent .nav-link {
+    color: #fff !important;
+  }
+
+  .navbar-white .nav-link {
+    color: #000 !important;
+  }
+
+  .nav-link {
+    margin-right: 0;
+    padding: 0.5rem 1rem;
+  }
+
+  .dropdown-menu {
+    background-color: transparent;
+    box-shadow: none;
+    padding-left: 1rem;
+  }
+}
+
+.language-btn {
+  border-radius: 20px;
+  padding: 0.5rem 0.8rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.navbar-transparent .language-btn {
+  background-color: #fff;
+  color: #000;
+}
+
+.navbar-white .language-btn {
+  background-color: #f1f1f1;
+  color: #000;
+}
+
+.language-btn:hover {
+  background-color: #e0e0e0;
+}
+
+.language-btn:focus {
+  outline: none;
+}
+@media (max-width: 570px) {
+}
+
+@media (max-width: 770px) {
+}
+
+@media (max-width: 450px) {
+  .hero-content {
+    width: 100%;
+    /* padding: 100px 0px; */
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .abt-logo-img {
+    display: none;
+  }
+  .phone img {
+    width: 100%;
+  }
+
+  .head {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .service-card p {
+    width: 300px;
+  }
+
+  .points p {
+    font-size: 14px;
+  }
+
+  .number {
+    gap: 3rem;
+  }
+
+  .arrow-img {
+    display: none;
+  }
+
+  .cta-phone {
+    display: none;
+  }
+
+  .faq-question span {
+    font-size: 16px;
+  }
+
+  .app-img {
+    height: 40px;
+  }
+
+  .copy {
+    flex-direction: column;
+  }
+
+  .contact-form{
+    margin: 0;
+    margin-top: 40px;
+}
+}
